@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Wikipedia Viewer</title>
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/wiki.css">
+</head>
+
+<body>
+<div id="wrapper">
+<!--Header Starts-->
+    <div class=" container-fluid header ">
+       <h1 class="header-h1">Wikipedia Viewer</h1>
+       <h3 class="header-h3">Search <a href="https://www.wikipedia.org/" target="_blank"><ins>Wikipedia</ins></a></h3>
+    </div>
+<!--Header Ends-->
+
+<!--Background-->
+     <div class="page-bg">
+     </div>
+<!--Background-->
+   
+<!--Main Body Starts  -->       
+     <div class="container">     
+       <div class="container main-body">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                  <input type="text" class="searchbox" id="inputSearch" placeholder="Search Wikipedia...">
+                  <div class="col-md-12 buttonEdits">
+                      <button type="submit" class="btn btn-success searchSubmit" id="searchSubmit">
+                      Search...
+                      </button>
+
+                      <button type="submit" class="btn btn-success" id="randomPage"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Feelin' Lucky?</a>
+                      </button>
+                  </div>
+                </div>
+           </div>
+
+          </div>
+     </div> 
+<!--Main Body Ends  -->  
+          
+<!--Display Results         -->
+     <div id="display-result" class="col-md-6 col-md-offset-3 ">
+     </div>
+     <div class="push">
+     </div>
+<!--Display Ends-->
+
+<!--Footer starts       -->
+     <div class=" container-fluid footer">
+         <div class="row">
+          <div class="col-md-12 text-center">
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.freecodecamp.com" target="_blank">Free Code Camp</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer" target="_blank">Challenge: Build a Wikipedia Viewer</a>
+              </li>
+            </ul>
+            
+         </div>
+        </div>
+       </div>
+<!--Footer Ends       --> 
+
+</div>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/wiki.js"></script>
+
+</body>
+
+</html>

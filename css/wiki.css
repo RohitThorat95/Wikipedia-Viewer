@@ -1,0 +1,162 @@
+html{
+    box-sizing: border-box
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+ 
+}
+.wrapper{
+    position: relative;
+}
+
+.page-bg{
+    background: url(../images/wiki.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header, .footer{
+    height: auto;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    text-align: center;
+
+}
+.container{
+    text-align: center;
+}
+.header-h1{
+    margin: 10px;
+    font-size: 3.5em
+}
+.header-h3{
+    margin-bottom: 20px;
+}
+.header-h3 a{
+    color: white;
+}
+.row{
+    padding: 30px;
+}
+.searchbox{
+    padding: 8px;
+    width: 25em;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 8px 20px rgba(0,0,0,0.3);
+}
+.buttonEdits{
+    margin-top: 15px
+}
+.searchSubmit{
+    padding: 8px;
+    width: 8em;
+    border-radius: 5px;
+    box-shadow: 10px 8px 20px rgba(0,0,0,0.3);
+    margin-right: 10px;
+    color: white;
+}
+#randomPage{
+    padding: 8px;
+    width: 8em;
+    border-radius: 5px;
+    box-shadow: 10px 8px 20px rgba(0,0,0,0.3);
+    color: white;
+}
+#randomPage a{
+    color: white;
+}
+.searchSubmit:hover {
+  color: #fff;
+  border: #009999;
+    margin-top: 10px;
+  opacity: 0.8;
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+#randomPage:hover{
+  color: #fff;
+  border: #009999;
+  margin-top: 10px;
+  opacity: 0.8;
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+.display-result{
+    height: auto;
+}
+
+.footer ul li a{
+    color: white;
+}
+.results {
+  font-size: 2rem;
+  width: 100%;
+  background: #fff;
+  border: .5px solid #ccc;
+  box-shadow: inset 0 0 0 .1em #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: .2rem;
+}
+.footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+   
+    
+}
+
+
+.extract {
+  font-size: 12px;
+}
+
+@media(max-width:560px){
+    .wrapper{
+        text-align: center;
+    }
+    .header,.footer{
+        width: 100%
+    }
+    .main-body{
+        text-align: center;
+    }
+    #inputSearch{
+        width:100%;
+    }
+    
+    #main-body button{
+        display: block;
+        
+    }
+    #searchSubmit{
+        margin:10px;
+    }
+    #randomPage{
+        margin: 10px;
+    }
+    
+    
+    
+}
+
